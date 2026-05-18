@@ -26,7 +26,7 @@ while takror:
     if user_number == computer_number:
             print(f"TOPDINGIZ! {computer_number} sonini o'ylagan edim. 1 ta tahmin bilan topdingiz. Tabriklayman!")
             won = True
-    if won == True:
+    if won:
         xohish = input("Yana o'ynashni xohlaysizmi? (xa uchun +, yo'q uchun -): ")
         if xohish == "-":
             break
